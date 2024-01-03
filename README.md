@@ -12,3 +12,5 @@ val_data.npy: The val data set part of the MSLDD data set contains 530 data matr
 val_label.npy: The val data set part of the MSLDD data set contains 530 data matrices, and the shape of the matrix is (1024, 1024, 1)
 
 val_data.zip: This compressed package contains the original files of remote sensing images from three sources: UAV, Google earth, and PlaneScope belonging to the Lushan area, which are used to display the verification area. The shapes of these data are: UAV(data: (14746, 13366, 3), label: (14746, 13366, 1)), Google earth (data: (13500, 15000, 3), label: (13500, 15000 ,1)),PlantScope(data:(11000,10000,3), label:(11000,10000, 1))
+
+If you use this data for scientific research, please cite our article：xxx
