@@ -6,15 +6,15 @@ Data description：
 
 train_dataset:
 
-train_data: The train data set part of the MSLDD data set contains 10620 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 3) (TIFF).
+train_data: The train dataset part of the MSLDD data set contains 10620 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 3) (TIFF).
 
-train_label: The train data set part of the MSLDD data set contains 10620 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 1) (TIFF).
+train_label: The train dataset part of the MSLDD data set contains 10620 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 1) (TIFF).
 
 test_dataset
 
-test_data.npy: The test data set part of the MSLDD data set contains 3411 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 3) (TIFF).
+test_data: The test dataset part of the MSLDD data set contains 3411 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 3) (TIFF).
 
-test_label.npy: The test data set part of the MSLDD data set contains 3411 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 1) (TIFF).
+test_label: The test dataset part of the MSLDD data set contains 3411 data matrices (TIFF), and the shape of the matrix is (1024, 1024, 1) (TIFF).
 
 val_dataset (Lushan earthquake region dataset)
 
