@@ -1,5 +1,5 @@
 # MSLDD
-The large-scale and multi-source landslide dataset (MSLDD) can be download at : https://pan.baidu.com/s/1pG5gTb1b8ccGB8hidFSAyQ?pwd=1zo9 keyword：1zo9 
+The large-scale and multi-source landslide dataset (MSLDD) can be download at : https://drive.google.com/file/d/1-eiIf7KAVev9dbVg7fKHJ_3MNhKOjmbf/view?usp=sharing.
 
 
 Data description：
@@ -18,7 +18,7 @@ test_label: The test dataset part of the MSLDD data set contains 3411 data matri
 
 val_dataset (Lushan earthquake region dataset)
 
-This package contains the original files of remote sensing images from three sources: UAV, Google earth, and PlaneScope belonging to the Lushan area, which are used to display the verification area. The shapes of these data are: UAV(data: (14746, 13366, 3), label: (14746, 13366, 1)), Google earth (data: (13500, 15000, 3), label: (13500, 15000 ,1)),PlantScope(data:(11000,10000,3), label:(11000,10000, 1))
+This package contains the original files of remote sensing images from three sources: UAV, Google earth, and PlaneScope belonging to the Lushan area, which are used to display the verification area. The shapes of these data are: UAV(data: (14746, 13366, 3), label: (14746, 13366, 1)), Google earth (data: (13500, 15000, 3), label: (13500, 15000 ,1)),PlantScope(data:(11000,10000,3), label:(11000,10000, 1)) (TIFF)
 
 
 If you use this data for scientific research, please cite our article：xxx
