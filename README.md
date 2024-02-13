@@ -20,6 +20,8 @@ val_dataset (Lushan earthquake region dataset)
 
 This package contains the original files of remote sensing images from three sources: UAV, Google earth, and PlaneScope belonging to the Lushan area, which are used to display the verification area. The shapes of these data are: UAV(data: (14746, 13366, 3), label: (14746, 13366, 1)), Google earth (data: (13500, 15000, 3), label: (13500, 15000 ,1)),PlantScope(data:(11000,10000,3), label:(11000,10000, 1)) (TIFF)
 
+The paddle basic code used in this study can be obtained from the following link：https://github.com/PaddlePaddle/PaddleSeg
+
 
 If you use this data for scientific research, please cite our article：xxx
 
