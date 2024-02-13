@@ -2,11 +2,6 @@ import paddle
 import paddle.nn as nn
 import paddle.nn.functional as F
 
-from paddleseg.cvlibs import manager
-from paddleseg.models import layers
-from paddleseg.utils import utils
-
-
 class MLP(nn.Layer):
 
     def __init__(self, input_dim=2048, embed_dim=768):
@@ -50,7 +45,6 @@ class GRNConvBNReLU(nn.Layer):
         x = self._grn(x)
         return x
 
-@manager.MODELS.add_component
 class LDGFormer(nn.Layer):
 
 
@@ -94,7 +88,6 @@ class LDGFormer(nn.Layer):
         feats = self.backbone(x)
         c1, c2, c3, c4 = feats
 
-        ############## MLP decoder on C1-C4 ###########
         c1_shape = paddle.shape(c1)
         c2_shape = paddle.shape(c2)
         c3_shape = paddle.shape(c3)
